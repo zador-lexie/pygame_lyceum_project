@@ -16,7 +16,7 @@
 </ul>
 <h2>Стек</h2>
 <ul>
- <li>Библиотеки pyton: pygame</li>
+ <li>Библиотеки python: pygame</li>
  <li>Спрайты, звуки: by Fomin and me</li>
  <li>Музыка: in thought</li>
 </ul>
