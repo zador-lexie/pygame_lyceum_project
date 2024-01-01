@@ -1,13 +1,15 @@
-# Получиилось? Надеюсь, да
+import pygame
+import sys
+import os
+from main_functions import load_image, terminate, FPS, size, WIDTH, HEIGHT, clock, screen
+from screensaver_screen import screensaver
+from start_screen import start
+from levels_screen import show_levels
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    pygame.init()
+    screensaver()
+    start()
+    show_levels()
+    pygame.quit()
