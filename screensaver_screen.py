@@ -8,8 +8,8 @@ def screensaver():
     fon = pygame.transform.scale(load_image('an-icon-with-the-letters-a-and-a 1.png'), (400, 400))
     txt = pygame.font.SysFont('times new roman', 30, True)
     txt_continue = txt.render('press any key to continue', False, (0, 255, 194))
-    screen.blit(txt_continue, (350, 515))
     screen.blit(fon, (310, 125))
+    screen.blit(txt_continue, (350, 515))
     running = True
     while running:
         for event in pygame.event.get():

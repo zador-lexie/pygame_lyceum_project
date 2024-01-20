@@ -3,7 +3,7 @@ import sys
 import os
 
 
-FPS = 50
+FPS = 40
 size = WIDTH, HEIGHT = 1028, 600
 screen = pygame.display.set_mode(size)
 screen.fill((1, 15, 30))
